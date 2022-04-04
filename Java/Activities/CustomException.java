@@ -1,9 +1,9 @@
 package activities;
 
-public class CustomException extends Exception{
-    private String message;
+public class CustomException extends Exception {
+    private String message = null;
 
-    public CustomException (String customMessage){
+    public CustomException(String customMessage) {
         this.message = customMessage;
     }
 
@@ -11,4 +11,6 @@ public class CustomException extends Exception{
     public String getMessage() {
         return message;
     }
+
+
 }
