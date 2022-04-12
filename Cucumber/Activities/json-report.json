@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-05T18:56:30.374Z",
+        "line": 10,
+        "name": "Testing Login without Examples",
+        "description": "",
+        "id": "testing-login-with-example;testing-login-without-examples;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6771359200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380502400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinitions.LoginTestSteps.parameterlogin(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24756200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.getinfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2734528400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the Browser",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.teardown()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity2_5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-05T18:56:40.371Z",
+        "line": 11,
+        "name": "Testing Login without Examples",
+        "description": "",
+        "id": "testing-login-with-example;testing-login-without-examples;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5106120300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login page",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357732300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"adminUser\" and \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adminUser",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.LoginTestSteps.parameterlogin(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28098800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.getinfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3158235000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the Browser",
+            "match": {
+              "location": "StepDefinitions.LoginTestSteps.teardown()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@activity2_5"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Login with Example",
+    "description": "",
+    "id": "testing-login-with-example",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Activity2_5.feature",
+    "tags": [
+      {
+        "name": "@activity2_5",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
